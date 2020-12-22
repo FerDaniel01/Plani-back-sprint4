@@ -9,8 +9,9 @@ app = FastAPI()
 
 origins = [
 
-    "http://localhost:8081",
-    #"https://planifinanzas-front.herokuapp.com"
+    "https://planifinanzas-ui-versionfinal.herokuapp.com"
+
+ 
 ]
 
 app.add_middleware(
